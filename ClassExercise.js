@@ -12,7 +12,7 @@ class TV{
     increaseVol(val = this.updatedVal){
        // return this.volume = val;
         if(val >=100 || val <=0){
-            return 'Volue cant be below 0 or above 100';
+            return 'Volume cant be below 0 or above 100';
         }
         else{
             val += 1;
@@ -23,7 +23,7 @@ class TV{
     }
     decreaseVol(val = this.updatedVal){
         if(val >=100 || val <=0){
-            console.log( 'Volue cant be below 0 or above 100');
+            console.log( 'Volume cant be below 0 or above 100');
         }
         else{
             val -= 1;
